@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+
+</head>
+<body>
+    
+   
+    <div class="row mx-0" id="body-row">
+       
+        <div id="sidebar-container" class="sidebar-expanded d-none d-md-flex p-0">
+           <div class="icon-block px-2">
+               <img src="images/logo.png" class="w-100 text-center py-3 mb-3"/>
+               <span class="logo-letter">U</span>
+           </div>
+           <ul class="list-group">
+
+               <li class="list-group-item sidebar-separator-title text-light d-flex align-items-center menu-collapsed">
+                   <small>Unilever</small>
+                   <span class="fa fa-bell-o ml-auto bell-icon"></span><span class="badge badge-pill badge-primary ml-2">5</span>
+               </li>
+
+               <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start py-3">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-circle mr-2 text-success"></span>
+                       <small class="menu-collapsed">Blanche Norman</small>
+                       
+                       <span class="submenu-icon ml-auto"></span>
+                   </div>
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <small><span class="fa fa-home mr-2 text-warning"></span>Working from home today</small>
+                   </div>
+               </a>
+               <!-- Submenu content -->
+               <div id='submenu1' class="collapse sidebar-submenu">
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu1</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu2</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu3</span>
+                   </a>
+               </div>
+               <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="mr-3">#</span>
+                       <small class="menu-collapsed">Profile</small>
+                       <span class="submenu-icon ml-auto"></span>
+                   </div>
+               </a>
+               <!-- Submenu content -->
+               <div id='submenu2' class="collapse sidebar-submenu">
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu1</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu2</span>
+                   </a>
+               </div>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class=" mr-3">$</span>
+                       <small class="menu-collapsed">Tasks</small>
+                   </div>
+               </a>
+
+               <li class="list-group-item sidebar-separator-title text-light py-2 d-flex align-items-center menu-collapsed">
+                   <small>Options</small>
+                   <span class="fa fa-plus-square-o ml-auto"></span>
+               </li>
+
+               <a href="#" class="list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-calendar fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Calendar</small>
+                   </div>
+               </a>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Messages <span class="badge badge-pill badge-primary ml-2">5</span></small>
+                   </div>
+               </a>
+
+               <li class="list-group-item sidebar-separator menu-collapsed"></li>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-question fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Help</small>
+                   </div>
+               </a>
+
+
+               <li class="list-group-item sidebar-separator-title text-light d-flex align-items-center menu-collapsed">
+                   <small>Unilever</small>
+               </li>
+
+               <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class=" mr-3">#</span>
+                       <small class="menu-collapsed">Dashboard</small>
+                       <span class="submenu-icon ml-auto"></span>
+                   </div>
+               </a>
+               <!-- Submenu content -->
+               <div id='submenu1' class="collapse sidebar-submenu">
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu1</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu2</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu3</span>
+                   </a>
+               </div>
+               <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="mr-3">#</span>
+                       <small class="menu-collapsed">Profile</small>
+                       <span class="submenu-icon ml-auto"></span>
+                   </div>
+               </a>
+               <!-- Submenu content -->
+               <div id='submenu2' class="collapse sidebar-submenu">
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu1</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu2</span>
+                   </a>
+               </div>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class=" mr-3">$</span>
+                       <small class="menu-collapsed">Tasks</small>
+                   </div>
+               </a>
+
+               <li class="list-group-item sidebar-separator-title text-light py-2 d-flex align-items-center menu-collapsed">
+                   <small>Options</small>
+               </li>
+
+               <a href="#" class="list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-calendar fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Calendar</small>
+                   </div>
+               </a>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Messages <span class="badge badge-pill badge-primary ml-2">5</span></small>
+                   </div>
+               </a>
+
+               <li class="list-group-item sidebar-separator menu-collapsed"></li>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-question fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Help</small>
+                   </div>
+               </a>
+
+
+
+               <li class="list-group-item sidebar-separator-title text-light d-flex align-items-center menu-collapsed">
+                   <small>Unilever</small>
+               </li>
+
+               <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class=" mr-3">#</span>
+                       <small class="menu-collapsed">Dashboard</small>
+                       <span class="submenu-icon ml-auto"></span>
+                   </div>
+               </a>
+               <!-- Submenu content -->
+               <div id='submenu1' class="collapse sidebar-submenu">
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu1</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu2</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu3</span>
+                   </a>
+               </div>
+               <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="mr-3">#</span>
+                       <small class="menu-collapsed">Profile</small>
+                       <span class="submenu-icon ml-auto"></span>
+                   </div>
+               </a>
+               <!-- Submenu content -->
+               <div id='submenu2' class="collapse sidebar-submenu">
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu1</span>
+                   </a>
+                   <a href="#" class="list-group-item list-group-item-action text-white">
+                       <span class="menu-collapsed">sub menu2</span>
+                   </a>
+               </div>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class=" mr-3">$</span>
+                       <small class="menu-collapsed">Tasks</small>
+                   </div>
+               </a>
+
+               <li class="list-group-item sidebar-separator-title text-light py-2 d-flex align-items-center menu-collapsed">
+                   <small>Options</small>
+               </li>
+
+               <a href="#" class="list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-calendar fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Calendar</small>
+                   </div>
+               </a>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-envelope-o fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Messages <span class="badge badge-pill badge-primary ml-2">5</span></small>
+                   </div>
+               </a>
+
+               <li class="list-group-item sidebar-separator menu-collapsed"></li>
+               <a href="#" class=" list-group-item list-group-item-action">
+                   <div class="d-flex w-100 justify-content-start align-items-center">
+                       <span class="fa fa-question fa-fw mr-3"></span>
+                       <small class="menu-collapsed">Help</small>
+                   </div>
+               </a>
+           </ul>
+        </div>
+        <div class="col p-0">
+            <nav class="navbar navbar-expand-md navbar-dark bg-light border-bottom">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="fa fa-circle text-success mr-3"></span><span class="">Aaron Bennet </span><span class="fa fa-star-o ml-2 text-warning"></span>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Pricing</a>
+                        </li>
+
+                        <li class="nav-item dropdown d-sm-block d-md-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu </a>
+                            <div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
+                                <a class="dropdown-item" href="#top">hjsahgjsa</a>
+                                <a class="dropdown-item" href="#top">Profile</a>
+                                <a class="dropdown-item" href="#top">Tasks</a>
+                                <a class="dropdown-item" href="#top">Etc ...</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-content p-4">
+                <div class="media">
+                    <div class="media-left d-flex mr-3">
+                        <a href="#">
+                            <img src="images/person.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body col-lg-9">
+                        <div class="testimonial">
+                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+
+                        </div>
+
+                    </div>
+                    <span class="fa fa-star text-warning"></span>
+                </div>
+
+
+
+                <div class="media">
+                    <span class="fa fa-star text-warning  ml-auto"></span>
+                    <div class="media-body col-lg-9">
+                        <div class="testimonial">
+                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!--<div class="media-left d-flex mr-3">
+            <a href="#">
+                <img src="images/person.jpg" alt="">
+            </a>
+        </div>-->
+                </div>
+
+                <div class="line">
+                    <span class="yesterday"> <span class="fa fa-angle-left mr-1"></span>Yesterday <span class="fa fa-angle-right ml-1"></span></span>
+                </div>
+
+                <div class="media">
+                    <div class="media-left d-flex mr-3">
+                        <a href="#">
+                            <img src="images/person.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body col-lg-9">
+                        <div class="testimonial">
+                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+
+                        </div>
+
+                    </div>
+                    <span class="fa fa-star text-warning"></span>
+                </div>
+
+
+
+                <div class="media">
+                    <span class="fa fa-star text-warning  ml-auto"></span>
+                    <div class="media-body col-lg-9">
+                        <div class="testimonial">
+                            <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            <p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!--<div class="media-left d-flex mr-3">
+            <a href="#">
+                <img src="images/person.jpg" alt="">
+            </a>
+        </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/javascipt.js"></script>
+</body>
+
+</html>

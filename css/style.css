@@ -1,0 +1,53 @@
+﻿.icon-block {
+    width: 70px;
+    float: left;
+    background: #3b2b72;
+    text-align: center;
+}
+.logo-letter {
+    background: rgba(255,255,255,0.1);
+    padding: 10px 15px;
+    margin: 85px 0 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #8980a9;
+}
+.list-group {
+    /*max-height: 100vh;
+    overflow: auto;*/
+}
+.bell-icon + .badge {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+.media {
+    margin: 20px 0;
+}
+.media img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 50%;
+}
+.testimonial {
+    padding: 15px;
+    position: relative;
+    border-radius: 5px;
+    background: #edf2f7;
+}
+.yesterday {
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    background: #fff;
+    padding: 0 10px;
+}
+.line {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
